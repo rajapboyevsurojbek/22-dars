@@ -50,7 +50,7 @@
           <div class="wrapper">
             <div class="restaurants">
               <p>Restaurants</p>
-              <button class="restaurants__btn">show all</button>
+              <button class="restaurants__btn"><a href="#">show all</a></button>
             </div>
 
             <div class="Restaurant__img">
@@ -63,10 +63,25 @@
         </div>
       </section>
 
-      <section>
+      <section class="placing-order">
         <div class="container">
-          <div class="wrapper">
-            <img src="./images/Block-find-rearest.png" alt="" />
+          <div class="placing-order__wrapper">
+            <div class="placing-order__restaurants">
+              <h2 class="placing-order__title">Your nearest restaurants</h2>
+              <p class="placing-order__info">
+                Each kitchen works with its own delivery area <br />to deliver
+                food to you as soon as possible
+              </p>
+            </div>
+
+            <div>
+              <input
+                class="placing-order__input"
+                type="text"
+                placeholder="Enter delivery address"
+              />
+              <button class="placing-order___btn">send</button>
+            </div>
           </div>
         </div>
       </section>
