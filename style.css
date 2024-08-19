@@ -36,6 +36,12 @@
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0.5px;
+  transition: 1s;
+}
+
+.nav__list__item a:hover {
+  transition: 0.5s;
+  color: rgb(246, 45, 9);
 }
 
 .hero__wrapper {
@@ -75,6 +81,14 @@
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0.5px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.hero__btn:hover {
+  transition: 0.6s;
+  background-color: #ffe145;
+  color: #fff;
 }
 
 .wrapper {
@@ -135,14 +149,14 @@
 }
 
 .placing-order__title {
-  color: #3F4255;
+  color: #3f4255;
   margin-top: 81px;
   font-weight: 300;
   font-size: 36px;
 }
 
 .placing-order__info {
-  color: #3F4255;
+  color: #3f4255;
   margin-top: 24px;
   margin-bottom: 80px;
 }
@@ -160,12 +174,19 @@
   outline: none;
 }
 
-.placing-order___btn{
+.placing-order___btn {
   padding: 18px;
-  background: #FFE145;
-  color: #B79C10;
+  background: #ffe145;
+  color: #b79c10;
   border-radius: 4px;
   border: none;
+  transition: 1s;
+}
+
+.placing-order___btn:hover {
+  transition: 0.7s;
+  background-color: #b79c10;
+  color: #000;
 }
 
 .wrapper__bg {
